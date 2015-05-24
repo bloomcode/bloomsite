@@ -1,0 +1,14 @@
+{
+  "name": "bloomsite",
+  "version": "0.1.0",
+  "description": "Home page for Bloomcode.io",
+  "main": "bloomsite.js",
+  "dependencies": {
+    "express": "^4.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carl Lumma"
+}

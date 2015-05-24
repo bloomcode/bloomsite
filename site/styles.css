@@ -1,0 +1,37 @@
+@-webkit-keyframes Bloom {
+    0% {background-position: 50% 100%}
+    100% {background-position: 50% 0%}
+}
+@-moz-keyframes Bloom {
+    0% {background-position: 50% 85%}
+    100% {background-position: 50% 0%}
+}
+
+body {
+	background: linear-gradient(0deg, #655D5B, #692776, #007fe6);
+	background-size: 200% 200%;
+	-webkit-animation: Bloom 1.5s;
+	-moz-animation: Bloom 1.5s;
+}
+
+.centered {
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.emblem {
+	margin-bottom: -5px;
+	font-family: serif;
+	font-size: 5em;
+	color: white;
+}
+
+.tagline {
+	margin-top: -5px;
+	font-family: serif;
+	font-size: 2.25em;
+	color: gray;
+}
